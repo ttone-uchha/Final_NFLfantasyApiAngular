@@ -1,0 +1,20 @@
+<img width="600" height="600" src="assets/nfllogo.png">
+<p id="Title">
+	NFL Yearly Fantasy Stats!
+</p>
+<input type="text" placeholder="Week" #searchWeek>
+<input type="text" placeholder="Season" #searchSeason>
+
+
+<button id="btn" (click)="nflSearch(searchSeason.value, searchWeek.value)">Search</button>
+
+
+
+
+<h1 id="Season">{{currentSeason}}</h1>
+<ul *ngFor="let player of playersArray" id="playerArray">
+	<li>{{player.name}}</li>
+	<li>{{player.teamAbbr}}</li>
+	<li>{{player.seasonPts}}</li>
+
+</ul>

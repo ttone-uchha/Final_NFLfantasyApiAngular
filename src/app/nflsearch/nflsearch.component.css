@@ -1,0 +1,55 @@
+
+
+
+#Season{
+	font-size: 80px;
+	color: red;
+	font-family: sans-serif;
+	font: arial;
+	
+	
+	
+
+
+}
+
+#Week{
+	font-size: 30px;
+	color: red;
+	display: inline-block;
+	
+	
+
+
+}
+
+#playerArray{
+
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	margin: 15px;
+	background-color: #000080;
+	font-family: sans-serif;
+	width: 300px;
+	height: 300px;
+	font: Arial;
+	stroke: 5px;
+	list-style-type: none;
+	padding: 13px;
+	border:dotted;
+	border-color: red;
+	border-width: 6px;
+
+
+
+}
+
+
+#Title{
+	color:#000080;
+	font-family: sans-serif;
+	font: arial;
+	display: block;
+	font-size:100px;
+}
